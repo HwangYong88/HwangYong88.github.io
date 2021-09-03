@@ -5,7 +5,6 @@ description: //
 tags:
   - java
   - python
-  - react
   - economics
   - statistics
   - netlify
@@ -21,8 +20,6 @@ menu:
     url: /Programming_java.xml
   - title: python
     url: /Programming_python.xml
-  - title: react
-    url: /Programming_react.xml
   - title: 経済学
     url: /economics.xml
   - title: 統計学
