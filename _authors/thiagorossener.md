@@ -1,15 +1,14 @@
 ---
 layout: author
 photo: /assets/img/uploads/profile.png
-name: thiagorossener
-display_name: Thiago Rossener
-position: Chief Editor
+name: hwang yong
+display_name: hwang yong
+position: blogger
 bio: Just a developer.
-github_username: thiagorossener
-facebook_username: thiagorossener
-twitter_username: thiagorossener
-instagram_username: thiagorossener
-linkedin_username: thiagorossener
-medium_username: thiagorossener
+github_username: hwang yong
+facebook_username: hwang yong
+twitter_username: hwang yong
+instagram_username: hwang yong
+linkedin_username: hwang yong
+medium_username: hwang yong
 ---
-
