@@ -33,7 +33,7 @@
                 <noscript>
                   <img src="{{ post.image }}" width="100%" />
                 </noscript>
-                {% else %} {% if post.tags(0) == "java" %}
+                {% else %} {% if post.tag[0] == "java" %}
                 <img
                   src="/assets/img/java.jpg"
                   width="100%"
