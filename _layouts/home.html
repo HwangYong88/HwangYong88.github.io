@@ -86,15 +86,15 @@ site.show_hero and paginator == nil or paginator.page == 1 %} {% assign offset =
           />
           <noscript>
             <img
-              src="{% static '/assets/img/|add:post.title|add:'.png' %}"
+              src="{% static '/assets/img/|add:post.category|add:'.png' %}"
               width="100%"
             />
           </noscript>
           {% else %}
           <img
-            src="{% static '/assets/img/|add:post.title|add:'.png' %}"
+            src="{% static '/assets/img/|add:post.category|add:'.png' %}"
             width="100%"
-            data-url="/assets/img/{{ post.title }}.jpg"
+            data-url="/assets/img/{{ post.category }}.jpg"
             class="preload"
           />
           <noscript>
