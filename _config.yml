@@ -13,12 +13,9 @@ show_hero: true
 menu:
   - title: Home
     url: /
-  - title: About
-    url: /about
-  - title: Contact
-    url: /contact
-  - title: Feed
-    url: /feed.xml
+  #
+  - title: ・・・・
+    url: /Programming_java.xml
   - title: java
     url: /Programming_java.xml
   - title: python
@@ -29,6 +26,15 @@ menu:
     url: /statistics.xml
   - title: .etc
     url: /Programming_etc.xml
+  #
+  - title: ・・・・
+    url: /about
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+  - title: Feed
+    url: /feed.xml
 email: yong8812@naver.com
 # See: https://disqus.com/
 disqus_username: HwangYong
