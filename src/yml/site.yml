@@ -1,26 +1,42 @@
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: 勉強Blog
+title: 勉強Blog
+description: //
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
+  - java
+  - python
+  - economics
+  - statistics
   - netlify
+  - Programming_etc
 show_hero: true
 menu:
   - title: Home
     url: /
+  #
+  - title: ・・・・
+    url: /Programming_java.xml
+  - title: java
+    url: /Programming_java.xml
+  - title: python
+    url: /Programming_python.xml
+  - title: 経済学
+    url: /economics.xml
+  - title: 統計学
+    url: /statistics.xml
+  - title: .etc
+    url: /Programming_etc.xml
+  #
+  - title: ・・・・
+    url: /about
   - title: About
     url: /about
   - title: Contact
     url: /contact
   - title: Feed
     url: /feed.xml
-email: youremail@test.com
+email: yong8812@naver.com
 # See: https://disqus.com/
-disqus_username: disqus_username
+disqus_username: HwangYong
 # Contact Form Setting
 # See: https://formspree.io/
 formspree_form_id: formspree_form_id
