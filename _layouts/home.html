@@ -85,17 +85,23 @@ site.show_hero and paginator == nil or paginator.page == 1 %} {% assign offset =
             class="preload"
           />
           <noscript>
-            <img src="{{ post.image }}" width="100%" />
+            <img
+              src="{% static '/assets/img/|add:post.title|add:'.png' %}"
+              width="100%"
+            />
           </noscript>
           {% else %}
           <img
-            src="/assets/img/{{ post.title }}.png"
+            src="{% static '/assets/img/|add:post.title|add:'.png' %}"
             width="100%"
             data-url="/assets/img/{{ post.title }}.jpg"
             class="preload"
           />
           <noscript>
-            <img src="/assets/img/{{ post.title }}.jpg" width="100%" />
+            <img
+              src="{% static '/assets/img/|add:post.title|add:'.png' %}"
+              width="100%"
+            />
           </noscript>
           {% endif %} {% include new-post-tag.html date=post.date %} {% include
           read-icon.html %}
